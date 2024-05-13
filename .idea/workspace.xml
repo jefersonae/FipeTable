@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b730136d-6312-438a-89d6-2990194ae363" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/ConsumoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/ConverteDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/IConverteDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/TabelaFlipeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/TabelaFlipeApplication.java" afterDir="false" />
+    <list default="true" id="b730136d-6312-438a-89d6-2990194ae363" name="Changes" comment="Initial changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/model/Dados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/model/Modelos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/model/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/ConverteDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/ConverteDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/IConverteDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TabelaFlipe/service/IConverteDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/principal/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/principal/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/service/ConverteDados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/service/ConverteDados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/service/IConverteDados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/TabelaFlipe/service/IConverteDados.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,27 +26,28 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jefersonae"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jefersonae&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jefersonae/FipeTable.git",
-    "accountId": "35387c29-4f57-4319-b6b4-00637556f54e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jefersonae/FipeTable.git&quot;,
+    &quot;accountId&quot;: &quot;35387c29-4f57-4319-b6b4-00637556f54e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gN64C4n3CULsuB2K2M3GlRzhlE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,18 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.TabelaFlipeApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.TabelaFlipeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FipeTable" />
@@ -93,9 +92,28 @@
       <option name="presentableId" value="Default" />
       <updated>1715525494988</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial changes">
+      <option name="closed" value="true" />
+      <created>1715529354026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715529354026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial changes">
+      <option name="closed" value="true" />
+      <created>1715529366790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715529366790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial changes" />
   </component>
 </project>
